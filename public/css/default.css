@@ -1,0 +1,25 @@
+.btn[id="button_remove"], .btn[id="button_remove"]:active, .btn[id="button_remove"]:focus {
+  display: flex;
+  background: url('../image/icon_remove.png');
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn[id="button_remove"]:hover {
+  background: url('../image/icon_remove_hover.png');
+}
+
+#menu_sort {
+  width: 100%;
+  margin: 2vh 0;
+  padding: 2vh 1vh;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: .5vh;
+}
